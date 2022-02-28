@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/r5.css">
+	<title>Document</title>
+</head>
+<body>
+	<h1 style="text-align:center;">CALCULADORA</h1>
+	<center>
+		<div id=app>
+			<form name="Calculadora">
+				<input type="textfield" name="respuesta" autocomplete="off" readonly>
+				<br/>
+				<input type="reset" class="red" id="clear" value="C" onclick="document.Calculadora.respuesta.value+=''">
+				<input type="button" class="orange" value="/" onclick="document.Calculadora.respuesta.value+='/'">
+				<input type="button" class="gray" value="7" onclick="document.Calculadora.respuesta.value+='7'">
+				<input type="button" class="gray" value="8" onclick="document.Calculadora.respuesta.value+='8'">
+				<input type="button" class="gray" value="9" onclick="document.Calculadora.respuesta.value+='9'">
+				<input type="button" class="orange" value="*" onclick="document.Calculadora.respuesta.value+='*'">
+				<input type="button" class="gray" value="4" onclick="document.Calculadora.respuesta.value+='4'">
+				<input type="button" class="gray" value="5" onclick="document.Calculadora.respuesta.value+='5'">
+				<input type="button" class="gray" value="6" onclick="document.Calculadora.respuesta.value+='6'">
+				<input type="button" class="orange" value="-" onclick="document.Calculadora.respuesta.value+='-'">
+				<input type="button" class="gray" value="1" onclick="document.Calculadora.respuesta.value+='1'">
+				<input type="button" class="gray" value="2" onclick="document.Calculadora.respuesta.value+='2'">
+				<input type="button" class="gray" value="3" onclick="document.Calculadora.respuesta.value+='3'">
+				<input type="button" class="orange" value="+" onclick="document.Calculadora.respuesta.value+='+'">
+				<input type="button" class="gray" value="0" onclick="document.Calculadora.respuesta.value+='0'">
+				<input type="button" class="gray" value="." onclick="document.Calculadora.respuesta.value+='.'">
+				<input type="button" class="red" id="igual" value="=" onclick="document.Calculadora.respuesta.value+='='">
+			</form>
+		</div>
+	</center>
+</body>
+</html>
